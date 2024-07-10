@@ -54,7 +54,7 @@ console.log(data);
         <input onChange={(e)=>{handleage(e,i)}} value={item.age}  type="number" name="age" placeholder="Age" required />
         <button onClick={()=>{handleremove(i)}}>Remove</button>
       </div>)}
-     <button onClick={handleadd}>Add more..</button>
+     <button onClick={handleadd}>Add More..</button>
      <button onClick={handlesubmit}>Submit</button>
       <p>After clicking submit check console for data</p>
         {/* Do not remove the main div */}
